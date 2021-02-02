@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  margin: 0 auto;
+
+}
+nav {
+  background-color: #061339;
+  font-family: "Merienda", cursive;
+  color: #fff;
+ 
+}
+nav h3 {
+  font-size: 2.5rem;
+  padding: 2rem 0;
+  margin-left: 20rem;
+  margin-bottom: 0;
+}
+header {
+  background: url("./img/background.jpg");
+  
+}
+h1 {
+  font-family: "Merienda", cursive;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px #061339;
+  padding: 5rem 0;
+  text-align: center;
+}
+.milieu {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+    padding: 0 20rem;
+    
+   
+}
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.formulaire {
+    border: 1px solid black;
+    
+    padding: 2rem;
+    width:25rem;
+    height: 40rem;
+}
+.alert {
+  border:1px solid black;
+}
+.alert-danger{
+  border:1px solid red;
+}
+.alert-succes{
+  border:1px solid green;
+}
+.first h3 {
+    font-family: "Merienda", cursive;
+    color: #2F4073;
+    margin-bottom: 2rem;
+    font-weight: 40rem;
+}
+.carousel {
+    
+    margin: 2rem;
+  }
+
+footer {
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left:  20rem ;
+  padding: 5rem 0 ;
+}
+.text h2 {
+  font-family: "Merienda", cursive;
+  color: #2F4073;
+  font-size: 2rem;
+}
+.chat {
+  width: 100rem;
+  background-color: #7885A5;
+  margin-right: 20rem;
+}
+.chat:hover {
+  background-color: #061339;
+}
+
+@media screen and (max-width: )
